@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Inkleaf</string>
+    <string name="new_note">New Note</string>
+    <string name="untitled">Untitled</string>
+    <string name="all_notes">All Notes</string>
+    <string name="folders">Folders</string>
+    <string name="settings">Settings</string>
+    <string name="search_notes">Search notes</string>
+    <string name="sort_by">Sort by</string>
+    <string name="date_modified">Date modified</string>
+    <string name="date_created">Date created</string>
+    <string name="title">Title</string>
+    <string name="color">Color</string>
+    <string name="archive">Archive</string>
+    <string name="trash">Trash</string>
+    <string name="hidden_notes">Hidden Notes</string>
+    <string name="pin">Pin</string>
+    <string name="unpin">Unpin</string>
+    <string name="delete">Delete</string>
+    <string name="hide_note">Hide note</string>
+    <string name="unhide_note">Unhide note</string>
+    <string name="restore">Restore</string>
+    <string name="empty_notes">No notes yet. Tap + to create one.</string>
+    <string name="empty_archive">No archived notes.</string>
+    <string name="empty_trash">Trash is empty.</string>
+    <string name="note_saved">Note saved</string>
+    <string name="note_deleted">Note moved to trash</string>
+    <string name="confirm_delete_permanently">Delete permanently?</string>
+    <string name="cancel">Cancel</string>
+    <string name="confirm">Confirm</string>
+    <string name="word_count">%d words</string>
+    <string name="char_count">%d chars</string>
+
+    <!-- Navigation / common content descriptions -->
+    <string name="cd_back">Back</string>
+    <string name="cd_search">Search</string>
+    <string name="cd_sort">Sort</string>
+    <string name="cd_more">More</string>
+    <string name="cd_close_search">Close search</string>
+    <string name="cd_pinned">Pinned</string>
+    <string name="cd_locked">Locked</string>
+    <string name="cd_note_options">Note options</string>
+    <string name="cd_pin">Pin</string>
+    <string name="cd_background_color">Background color</string>
+    <string name="cd_drawing">Drawing</string>
+    <string name="cd_close">Close</string>
+
+    <!-- Common buttons -->
+    <string name="btn_save">Save</string>
+    <string name="btn_done">Done</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_lock">Lock</string>
+    <string name="btn_unlock">Unlock</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_empty_trash">Empty</string>
+    <string name="btn_delete_all">Delete All</string>
+    <string name="btn_move_to_trash">Move to Trash</string>
+    <string name="btn_edit_drawing">Edit drawing</string>
+    <string name="btn_add_tag">Add tag</string>
+    <string name="btn_attach_image">Attach image</string>
+    <string name="btn_add_item">Add item</string>
+    <string name="btn_use_fingerprint">Use fingerprint</string>
+
+    <!-- Note locked label -->
+    <string name="note_locked">Locked</string>
+
+    <!-- Home screen -->
+    <string name="search_notes_placeholder">Search notes…</string>
+    <string name="empty_notes_search">No notes found for \"%1$s\"</string>
+    <string name="time_just_now">Just now</string>
+    <string name="time_minutes_ago">%1$dm ago</string>
+    <string name="time_hours_ago">%1$dh ago</string>
+    <string name="time_days_ago">%1$dd ago</string>
+
+    <!-- Archive / Trash dialogs -->
+    <string name="dialog_empty_trash_title">Empty Trash?</string>
+    <string name="dialog_empty_trash_message">All notes in trash will be permanently deleted.</string>
+
+    <!-- Settings screen -->
+    <string name="settings_section_notes">Notes</string>
+    <string name="settings_archive_subtitle">View archived notes</string>
+    <string name="settings_trash_subtitle">View and manage deleted notes</string>
+    <string name="settings_hidden_subtitle">View and restore hidden notes</string>
+    <string name="settings_section_appearance">Appearance</string>
+    <string name="settings_theme_title">Theme</string>
+    <string name="theme_system_default">System default</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+    <string name="settings_font_title">Font</string>
+    <string name="font_default">Default (Sans-serif)</string>
+    <string name="font_serif">Serif</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="font_cursive">Cursive</string>
+    <string name="settings_section_backup">Backup &amp; Restore</string>
+    <string name="settings_export_backup_title">Export Backup</string>
+    <string name="settings_export_backup_subtitle">Save all notes to a JSON file</string>
+    <string name="settings_import_backup_title">Import Backup</string>
+    <string name="settings_import_backup_subtitle">Restore notes from a backup file</string>
+    <string name="settings_section_about">About</string>
+    <string name="settings_version_title">Version</string>
+    <string name="dialog_restore_backup_title">Restore Backup?</string>
+    <string name="dialog_restore_backup_message">This will replace ALL current notes and folders with the backup. This cannot be undone.</string>
+
+    <!-- Settings ViewModel messages -->
+    <string name="msg_backup_exported">Backup exported successfully</string>
+    <string name="msg_export_failed">Export failed: %1$s</string>
+    <string name="msg_backup_restored">Restored %1$d notes from backup</string>
+    <string name="msg_restore_failed">Restore failed: %1$s</string>
+    <string name="share_backup_chooser">Share backup via</string>
+
+    <!-- Folders screen -->
+    <string name="cd_new_folder">New folder</string>
+    <string name="empty_folders">No folders yet. Tap + to create one.</string>
+    <string name="dialog_new_folder_title">New Folder</string>
+    <string name="dialog_rename_folder_title">Rename Folder</string>
+    <string name="dialog_delete_folder_title">Delete \"%1$s\"?</string>
+    <string name="dialog_delete_folder_message">Notes in this folder won\'t be deleted — they\'ll just be moved to All Notes.</string>
+    <string name="folder_name_label">Folder name</string>
+    <string name="cd_folder_options">Options</string>
+    <string name="menu_rename">Rename</string>
+    <string name="cd_new_note_folder">New note</string>
+    <string name="empty_folder_notes">No notes in this folder yet.</string>
+    <string name="fallback_folder_name">Folder</string>
+
+    <!-- Editor screen -->
+    <string name="editor_body_hint">Start writing…</string>
+    <string name="menu_save">Save</string>
+    <string name="menu_export_pdf">Export as PDF</string>
+    <string name="menu_save_pdf_downloads">Save PDF to Downloads</string>
+    <string name="menu_share_as_text">Share as text</string>
+    <string name="menu_export_txt">Export as TXT</string>
+    <string name="menu_lock_note">Lock note</string>
+    <string name="menu_unlock_note">Unlock note</string>
+    <string name="menu_move_to_folder">Move to folder</string>
+    <string name="menu_drawing_canvas">Drawing canvas</string>
+    <string name="msg_pdf_saved">PDF saved to Downloads/Inkleaf</string>
+    <string name="msg_pdf_save_failed">Could not save PDF</string>
+    <string name="msg_save_before_locking">Save the note before locking</string>
+    <string name="dialog_text_color_title">Text Color</string>
+    <string name="dialog_highlight_color_title">Highlight Color</string>
+    <string name="dialog_delete_note_title">Move to Trash?</string>
+    <string name="dialog_delete_note_message">This note will be moved to trash.</string>
+    <string name="msg_note_locked">Note locked</string>
+    <string name="dialog_unlock_note_title">Unlock note?</string>
+    <string name="dialog_unlock_note_message">This will remove the PIN. The note will no longer require authentication.</string>
+    <string name="msg_note_unlocked">Note unlocked</string>
+    <string name="dialog_set_pin_title">Set a 4-digit PIN</string>
+    <string name="dialog_set_pin_message">This PIN will be required to open the note.</string>
+    <string name="pin_label">PIN</string>
+    <string name="confirm_pin_label">Confirm PIN</string>
+    <string name="error_pin_length">PIN must be exactly 4 digits</string>
+    <string name="error_pin_mismatch">PINs do not match</string>
+    <string name="cd_remove_tag">Remove tag</string>
+    <string name="cd_add_tag">Add tag</string>
+    <string name="dialog_add_tag_title">Add Tag</string>
+    <string name="tag_name_label">Tag name</string>
+    <string name="dialog_move_folder_title">Move to Folder</string>
+    <string name="folder_picker_no_folder">No folder</string>
+    <string name="share_pdf_chooser">Share PDF</string>
+    <string name="share_note_chooser">Share note</string>
+    <string name="share_txt_chooser">Share TXT</string>
+
+    <!-- Checklist section -->
+    <string name="checklist_title">Checklist</string>
+    <string name="checklist_item_hint">List item</string>
+    <string name="cd_remove_item">Remove item</string>
+
+    <!-- Image attachment section -->
+    <string name="images_count">Images (%1$d)</string>
+    <string name="cd_add_image">Add image</string>
+    <string name="cd_remove_image">Remove</string>
+
+    <!-- Drawing screen -->
+    <string name="drawing_title">Drawing</string>
+    <string name="cd_undo">Undo</string>
+    <string name="cd_save">Save</string>
+    <string name="cd_draw">Draw</string>
+    <string name="cd_eraser">Eraser</string>
+
+    <!-- Lock screen -->
+    <string name="lock_set_pin_prompt">Set a PIN to lock this note</string>
+    <string name="lock_confirm_pin_prompt">Confirm your PIN</string>
+    <string name="lock_enter_pin_prompt">Enter PIN to unlock</string>
+    <string name="error_pins_dont_match">PINs don\'t match. Try again.</string>
+    <string name="error_incorrect_pin">Incorrect PIN</string>
+    <string name="biometric_title">Unlock note</string>
+    <string name="biometric_subtitle">Use biometric to unlock</string>
+    <string name="biometric_negative_button">Use PIN</string>
+
+    <!-- Formatting toolbar -->
+    <string name="toolbar_redo">Redo</string>
+    <string name="toolbar_bold">Bold</string>
+    <string name="toolbar_italic">Italic</string>
+    <string name="toolbar_underline">Underline</string>
+    <string name="toolbar_strikethrough">Strikethrough</string>
+    <string name="toolbar_text_color">Text color</string>
+    <string name="toolbar_highlight">Highlight</string>
+    <string name="toolbar_alignment">Alignment</string>
+    <string name="toolbar_align_left">Left</string>
+    <string name="toolbar_align_center">Center</string>
+    <string name="toolbar_align_right">Right</string>
+    <string name="toolbar_align_justify">Justify</string>
+    <string name="toolbar_add_checklist">Add checklist item</string>
+    <string name="toolbar_undo">Undo</string>
+
+    <!-- Empty states (rich) -->
+    <string name="empty_notes_title">No notes yet</string>
+    <string name="empty_notes_subtitle">Capture thoughts, lists and sketches — all stored on your device.</string>
+    <string name="empty_notes_cta">Create your first note</string>
+    <string name="empty_folders_title">No folders yet</string>
+    <string name="empty_folders_subtitle">Organize your notes by topic, project or mood.</string>
+    <string name="empty_folders_cta">Create your first folder</string>
+    <string name="empty_folder_notes_title">This folder is empty</string>
+    <string name="empty_folder_notes_subtitle">Notes you add here will appear in this folder.</string>
+    <string name="empty_folder_notes_cta">Add a note</string>
+    <string name="empty_archive_title">Nothing archived</string>
+    <string name="empty_archive_subtitle">Archived notes will show up here.</string>
+    <string name="empty_trash_title">Trash is empty</string>
+    <string name="empty_trash_subtitle">Deleted notes will stay here for a while before being removed forever.</string>
+    <string name="empty_hidden_title">No hidden notes</string>
+    <string name="empty_hidden_subtitle">Hidden notes will stay out of the main list until you unhide them.</string>
+    <string name="empty_search_title">No results found</string>
+    <string name="empty_search_subtitle">Try a different search term.</string>
+
+    <!-- Multi-select mode -->
+    <string name="n_selected">%1$d selected</string>
+    <string name="cd_clear_selection">Clear selection</string>
+
+    <!-- Speed-dial FAB -->
+    <string name="fab_new">New</string>
+    <string name="fab_note">Note</string>
+    <string name="fab_checklist">Checklist</string>
+    <string name="fab_drawing">Drawing</string>
+
+    <!-- Material You setting -->
+    <string name="settings_dynamic_color_title">Material You colors</string>
+    <string name="settings_dynamic_color_subtitle">Match your wallpaper palette (Android 12+)</string>
+
+    <!-- About section extras -->
+    <string name="settings_rate_title">Rate Inkleaf</string>
+    <string name="settings_rate_subtitle">Leave a review on the Play Store</string>
+    <string name="settings_privacy_title">Privacy Policy</string>
+    <string name="settings_privacy_subtitle">View our privacy policy</string>
+    <string name="settings_licenses_title">Open-source licenses</string>
+    <string name="settings_licenses_subtitle">Libraries used in this app</string>
+    <string name="settings_feedback_title">Send feedback</string>
+    <string name="settings_feedback_subtitle">Report a bug or suggest a feature</string>
+    <string name="settings_tagline">Your thoughts, beautifully kept.</string>
+    <string name="snackbar_rate_unavailable">Rate option not available yet</string>
+    <string name="privacy_policy_url">https://github.com/prawalsharma/inkleaf/blob/main/PRIVACY.md</string>
+    <string name="licenses_dialog_title">Open-source Licenses</string>
+
+    <!-- Folder search -->
+    <string name="search_folders_placeholder">Search folders…</string>
+    <string name="empty_folder_search_title">No folders found</string>
+    <string name="empty_folder_search_subtitle">Try a different search term.</string>
+
+    <plurals name="folder_notes_count">
+        <item quantity="one">%1$d note</item>
+        <item quantity="other">%1$d notes</item>
+    </plurals>
+</resources>
