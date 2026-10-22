@@ -20,3 +20,7 @@ Kotlin · Android · Gradle
 ./gradlew assembleDebug
 # install app/build/outputs/apk/debug/app-debug.apk on a device or emulator
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
