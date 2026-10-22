@@ -2,6 +2,8 @@
 
 > An offline-first Android notes app: quick capture, folders, a distraction-free editor and settings — no account, no cloud.
 
+**Download:** [inkleaf_v2.apk](https://drive.google.com/file/d/13aSm6vWk6QgMb-ql8sTBPFigEvJll7xN/view?usp=drive_link) — install on any Android device (allow installs from your browser)
+
 <p align="center">
   <img src="docs/screenshots/01-notes-empty.png" width="28%" alt="Screenshot" />
   <img src="docs/screenshots/03-editor.png" width="28%" alt="Screenshot" />
